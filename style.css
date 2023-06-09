@@ -32,15 +32,18 @@ figure{
 .coold{
     background-image: linear-gradient(90deg, rgba(0,115,255,1) 0%, rgba(0,227,229,1) 50%, rgba(0,255,154,1) 100%);
 }
+
 .third{
     background-image: linear-gradient(90deg, rgba(36,65,93,1) 0%, rgba(45,89,124,1) 50%, rgba(54,113,157,1) 100%);
 
 }
+
 .second, .coold, .third{
     border-radius: 13px;
     margin-top: 10px;
     padding: 4px;
 }
+
 /* elements styling */
 /* 
  */
@@ -50,7 +53,7 @@ figure{
 
 img{
     width: 431px;
-    
+    min-width: 320px;
 }
 
 li{
